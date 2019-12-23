@@ -94,7 +94,7 @@
     "implicit-arrow-linebreak": "error",
     "indent": [
       "error",
-      4,
+      2,
       {
         "SwitchCase": 1
       }
