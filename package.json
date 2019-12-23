@@ -1,0 +1,32 @@
+{
+  "name": "@dkh-dev/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config",
+  "main": "index.js",
+  "files": [
+    ".eslintrc.json"
+  ],
+  "scripts": {
+    "test": "node test",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dkh-dev/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config"
+  ],
+  "author": "Hoang <dangkyokhoang@gmail.com> (https://dangkyokhoang.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkh-dev/eslint-config/issues"
+  },
+  "homepage": "https://github.com/dkh-dev/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "tape": "^4.12.0"
+  }
+}
