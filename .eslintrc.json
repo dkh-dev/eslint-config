@@ -344,7 +344,11 @@
     "space-before-blocks": "error",
     "space-before-function-paren": [
       "error",
-      "never"
+      {
+        "anonymous": "never",
+        "named": "always",
+        "asyncArrow": "never"
+      }
     ],
     "space-in-parens": [
       "error",
