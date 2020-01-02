@@ -1,14 +1,18 @@
 {
-  "env": {
-    "es6": true,
-    "node": true
-  },
   "parserOptions": {
     "ecmaVersion": 2020,
     "ecmaFeatures": {
       "jsx": true
     }
   },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "ignorePatterns": [
+    "node_modules/"
+  ],
   "extends": "eslint:recommended",
   "globals": {
     "document": "readonly",
@@ -305,7 +309,19 @@
     ],
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
-    "prefer-destructuring": "error",
+    "prefer-destructuring": [
+      "error",
+      {
+        "AssignmentExpression": {
+          "array": false,
+          "object": false
+        },
+        "VariableDeclarator": {
+          "array": true,
+          "object": true
+        }
+      }
+    ],
     "prefer-numeric-literals": "error",
     "prefer-object-spread": "error",
     "prefer-promise-reject-errors": "error",
