@@ -136,7 +136,6 @@
     "no-buffer-constructor": "error",
     "no-caller": "error",
     "no-compare-neg-zero": "error",
-    "no-confusing-arrow": "error",
     "no-div-regex": "error",
     "no-else-return": "error",
     "no-empty-character-class": "error",
