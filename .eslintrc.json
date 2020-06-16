@@ -248,7 +248,13 @@
         "allowMultiplePropertiesPerLine": true
       }
     ],
-    "object-shorthand": "error",
+    "object-shorthand": [
+      "error",
+      "always",
+      {
+        "avoidQuotes": true
+      }
+    ],
     "one-var": [
       "error",
       {
