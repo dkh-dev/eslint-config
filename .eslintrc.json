@@ -90,7 +90,10 @@
       "error",
       "expression"
     ],
-    "generator-star-spacing": "error",
+    "generator-star-spacing": [
+      "error",
+      "after"
+    ],
     "global-require": "error",
     "guard-for-in": "error",
     "handle-callback-err": "error",
