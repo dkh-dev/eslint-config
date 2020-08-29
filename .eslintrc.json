@@ -1,9 +1,6 @@
 {
   "parserOptions": {
-    "ecmaVersion": 2020,
-    "ecmaFeatures": {
-      "jsx": true
-    }
+    "ecmaVersion": 2020
   },
   "env": {
     "es6": true,
@@ -197,7 +194,6 @@
     "no-process-env": "error",
     "no-process-exit": "error",
     "no-proto": "error",
-    "no-prototype-builtins": "error",
     "no-restricted-globals": "error",
     "no-restricted-imports": "error",
     "no-restricted-modules": "error",
