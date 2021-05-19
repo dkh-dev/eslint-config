@@ -1,11 +1,18 @@
 {
   "name": "@dkh-dev/eslint-config",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "description": "ESLint config",
   "main": "index.js",
   "files": [
     ".eslintrc.json"
   ],
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "tape": "^5.2.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
   "scripts": {
     "test": "node test",
     "prepublishOnly": "npm test"
@@ -24,9 +31,5 @@
   "bugs": {
     "url": "https://github.com/dkh-dev/eslint-config/issues"
   },
-  "homepage": "https://github.com/dkh-dev/eslint-config#readme",
-  "devDependencies": {
-    "eslint": "^7.18.0",
-    "tape": "^5.1.1"
-  }
+  "homepage": "https://github.com/dkh-dev/eslint-config#readme"
 }
