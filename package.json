@@ -1,17 +1,27 @@
 {
   "name": "@dkh-dev/eslint-config",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "ESLint config",
   "main": "index.js",
   "files": [
-    ".eslintrc.json"
+    "src/eslint-config-typescript.json",
+    "src/eslint-config.json",
+    "typescript.js"
   ],
   "devDependencies": {
-    "eslint": "^7.18.0",
-    "tape": "^5.2.2"
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-sonarjs": "^0.19.0",
+    "tape": "^5.6.4",
+    "typescript": "^5.1.6"
   },
   "peerDependencies": {
-    "eslint": ">=7"
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": ">=8.44.0",
+    "eslint-plugin-sonarjs": ">0.19.0",
+    "typescript": "^5.1.6"
   },
   "scripts": {
     "test": "node test",

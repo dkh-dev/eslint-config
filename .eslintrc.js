@@ -1,8 +1,3 @@
 'use strict'
 
-module.exports = {
-  extends: './.eslintrc.json',
-  parserOptions: {
-    sourceType: 'script',
-  },
-}
+module.exports = require('./index')

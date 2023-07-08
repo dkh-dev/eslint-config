@@ -1,0 +1,12 @@
+{
+  "include": [
+    "**/*.ts",
+  ],
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "lib": [
+      "DOM",
+      "ESNext"
+    ]
+  },
+}
