@@ -1,11 +1,11 @@
 /* eslint-disable */
 
-// start @typescript-eslint/no-empty-function, @typescript-eslint/no-unused-vars
+// start @typescript-eslint/no-unused-vars
 function test(a?: string) {
 }
 // end
 
-// start @typescript-eslint/consistent-type-definitions, @typescript-eslint/consistent-type-exports, @typescript-eslint/member-delimiter-style
+// start @typescript-eslint/consistent-type-exports, @typescript-eslint/member-delimiter-style
 type A = {
   a: string;
   b: string;
@@ -19,6 +19,8 @@ const a = console.log(1)
 export { a }
 // end
 
-// start sonarjs/no-ignored-return
-'hello'.lastIndexOf('e')
+// start sonarjs/no-one-iteration-loop
+for (let i = 0; i < 1; i++) {
+  break
+}
 // end

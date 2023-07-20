@@ -8,10 +8,9 @@
   },
   "extends": [
     "eslint:recommended",
+    "plugin:sonarjs/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:@typescript-eslint/strict",
-    "plugin:sonarjs/recommended"
+    "plugin:@typescript-eslint/recommended-type-checked"
   ],
   "plugins": [
     "@typescript-eslint",
@@ -39,7 +38,10 @@
     "@typescript-eslint/no-require-imports": "error",
     "@typescript-eslint/no-unnecessary-qualifier": "error",
     "@typescript-eslint/no-useless-empty-export": "error",
+    "@typescript-eslint/require-await": "off",
     "@typescript-eslint/switch-exhaustiveness-check": "error",
-    "@typescript-eslint/type-annotation-spacing": "error"
+    "@typescript-eslint/type-annotation-spacing": "error",
+    "no-duplicate-imports": "off",
+    "prefer-destructuring": "off"
   }
 }
