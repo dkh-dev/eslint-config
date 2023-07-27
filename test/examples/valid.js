@@ -8,8 +8,10 @@ let i = 0
 
 for (;;) {
   console.log(i)
+
   if (i > 1) {
     break
   }
+
   i++
 }

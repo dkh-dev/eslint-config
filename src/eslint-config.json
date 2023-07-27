@@ -20,6 +20,8 @@
     "node_modules/"
   ],
   "rules": {
+    "sonarjs/no-duplicate-string": "off",
+    "sonarjs/no-nested-template-literals": "off",
     "array-bracket-newline": [
       "error",
       "consistent"
@@ -259,18 +261,29 @@
       "error",
       {
         "blankLine": "always",
-        "prev": "directive",
-        "next": "*"
-      },
-      {
-        "blankLine": "always",
-        "prev": "import",
+        "prev": [
+          "block",
+          "block-like",
+          "class",
+          "directive",
+          "export",
+          "function",
+          "import"
+        ],
         "next": "*"
       },
       {
         "blankLine": "always",
         "prev": "*",
-        "next": "import"
+        "next": [
+          "block",
+          "block-like",
+          "class",
+          "export",
+          "function",
+          "import",
+          "return"
+        ]
       },
       {
         "blankLine": "any",
@@ -278,29 +291,9 @@
         "next": "import"
       },
       {
-        "blankLine": "always",
-        "prev": "export",
-        "next": "*"
-      },
-      {
-        "blankLine": "always",
-        "prev": "*",
-        "next": "export"
-      },
-      {
         "blankLine": "any",
         "prev": "export",
         "next": "export"
-      },
-      {
-        "blankLine": "always",
-        "prev": "class",
-        "next": "*"
-      },
-      {
-        "blankLine": "always",
-        "prev": "*",
-        "next": "class"
       }
     ],
     "prefer-arrow-callback": "error",

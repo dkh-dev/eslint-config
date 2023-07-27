@@ -8,7 +8,6 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:sonarjs/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-type-checked"
   ],
@@ -38,6 +37,7 @@
     "@typescript-eslint/no-require-imports": "error",
     "@typescript-eslint/no-unnecessary-qualifier": "error",
     "@typescript-eslint/no-useless-empty-export": "error",
+    "@typescript-eslint/prefer-string-starts-ends-with": "error",
     "@typescript-eslint/require-await": "off",
     "@typescript-eslint/switch-exhaustiveness-check": "error",
     "@typescript-eslint/type-annotation-spacing": "error",

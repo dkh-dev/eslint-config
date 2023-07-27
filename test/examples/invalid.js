@@ -9,3 +9,9 @@ function test(a) {
 const say = (a, b) => console.log(a, b)
 say('hello', 'world', '!')
 // end
+
+// start strict, sonarjs/no-one-iteration-loop
+for (let i = 0; i < 1; i++) {
+  break
+}
+// end

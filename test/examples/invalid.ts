@@ -18,9 +18,3 @@ export { A, B }
 const a = console.log(1)
 export { a }
 // end
-
-// start sonarjs/no-one-iteration-loop
-for (let i = 0; i < 1; i++) {
-  break
-}
-// end
