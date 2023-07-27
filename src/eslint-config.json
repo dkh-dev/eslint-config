@@ -262,13 +262,17 @@
       {
         "blankLine": "always",
         "prev": [
+          "directive",
+          "import",
+          "export",
           "block",
           "block-like",
           "class",
-          "directive",
-          "export",
           "function",
-          "import"
+          "for",
+          "while",
+          "do",
+          "if"
         ],
         "next": "*"
       },
@@ -276,13 +280,17 @@
         "blankLine": "always",
         "prev": "*",
         "next": [
+          "directive",
+          "import",
+          "export",
           "block",
           "block-like",
           "class",
-          "export",
           "function",
-          "import",
-          "return"
+          "for",
+          "while",
+          "do",
+          "if"
         ]
       },
       {

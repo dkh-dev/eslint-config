@@ -8,7 +8,7 @@ a()
 
 let i = 0
 
-for (; ;) {
+for (;;) {
   console.log(i)
 
   if (i > 1) {
